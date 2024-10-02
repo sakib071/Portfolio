@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "title": "Eduarr",
+        "tech_used": [
+            "React",
+            "JavaScript",
+            "Tailwind CSS",
+            "Axios",
+            "Strapi"
+        ],
+        "description": "An online educational consultancy platform offering guidance for studying abroad.",
+        "img": "https://i.ibb.co/Sfr85zR/React-Symbol.png",
+        "live_link": "https://eduarr.com",
+        "note": "Development"
+    },
+    {
+        "id": 2,
+        "title": "TurfHub",
+        "tech_used": [
+            "React",
+            "JavaScript",
+            "Tailwind CSS",
+            "Axios",
+            "MongoDB"
+        ],
+        "description": "Key features include realtime availability, secure payment integration, and a user-friendly interface for easy turf management. Users can create player requests to find additional teammates.",
+        "img": "https://i.ibb.co/Sfr85zR/React-Symbol.png",
+        "live_link": "https://turfhub.vercel.app/",
+        "note": "Development"
+    },
+    {
+        "id": 3,
+        "title": "Labiba Engineering",
+        "tech_used": [
+            "React",
+            "JavaScript",
+            "Tailwind CSS",
+            "Axios",
+            "MongoDB"
+        ],
+        "description": "An e-commerce platform for seamless shopping experience with real-time inventory management.",
+        "img": "https://i.ibb.co/Sfr85zR/React-Symbol.png",
+        "live_link": "https://shopease.com",
+        "note": "Development"
+    },
+    {
+        "id": 4,
+        "title": "FitLife",
+        "tech_used": [
+            "React",
+            "JavaScript",
+            "Tailwind CSS",
+            "Axios",
+            "MongoDB"
+        ],
+        "description": "A fitness tracking app that helps users monitor workouts and dietary habits.",
+        "img": "https://i.ibb.co/Sfr85zR/React-Symbol.png",
+        "live_link": "https://fitlife.com",
+        "note": "Development"
+    }
+]
