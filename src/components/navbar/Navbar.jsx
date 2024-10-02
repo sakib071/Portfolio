@@ -73,7 +73,7 @@ const Navbar = () => {
                             {navOptions}
                         </ul>
                     </div>
-                    <a href="/" className="hidden lg:block lg:text-lg"><p>Sakib Chowdhury</p></a>
+                    <a href="/" className="hidden lg:block lg:text-lg"><p>Sakib</p></a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
 

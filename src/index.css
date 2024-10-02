@@ -23,56 +23,6 @@ input:-webkit-autofill {
 /* <uniquifier>: Use a unique and descriptive class name */
 /* <weight>: Use a value from 100 to 900 */
 
-.inter-300 {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 300;
-  font-style: normal;
-  font-variation-settings: "slnt" 0;
-}
-.inter-400 {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-variation-settings: "slnt" 0;
-}
-.inter-500 {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 500;
-  font-style: normal;
-  font-variation-settings: "slnt" 0;
-}
-.inter-600 {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 600;
-  font-style: normal;
-  font-variation-settings: "slnt" 0;
-}
-.inter-700 {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 700;
-  font-style: normal;
-  font-variation-settings: "slnt" 0;
-}
-.inter-800 {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 800;
-  font-style: normal;
-  font-variation-settings: "slnt" 0;
-}
-.inter-900 {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 900;
-  font-style: normal;
-  font-variation-settings: "slnt" 0;
-}
-
 .space-grotesk-300 {
   font-family: "Space Grotesk", sans-serif;
   font-optical-sizing: auto;
@@ -90,6 +40,12 @@ input:-webkit-autofill {
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
+}
+.space-grotesk-500-italic {
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: italic;
 }
 .space-grotesk-600 {
   font-family: "Space Grotesk", sans-serif;
