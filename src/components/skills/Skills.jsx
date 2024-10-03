@@ -2,14 +2,18 @@ import { FaFigma, FaHtml5, FaReact, FaGitAlt, FaGithub, FaJsSquare, FaSlack, FaD
 import { SiAdobexd, SiAdobeillustrator, SiTailwindcss, SiVitest } from "react-icons/si";
 import { IoLogoCss3 } from "react-icons/io5";
 import { RxNotionLogo } from "react-icons/rx";
+import { ThemeContext } from "../../providers/ThemeProvider";
+import { useContext } from "react";
 
 const Skills = () => {
 
+    const { theme } = useContext(ThemeContext);
+
     return (
-        <div name="skills" className="pt-20">
-            <div className="relative text-black mx-auto">
+        <div name="skills" className="pt-20 hidden">
+            <div className={`relative ${theme === 'dark' ? 'bg-zinc-900 text-white' : 'bg-white text-zinc-900'} mx-auto`}>
                 <h3 className="text-2xl uppercase space-grotesk-600">Skills</h3>
-                <div className="flex gap-20 mt-5 text-gray-700">
+                <div className={`flex gap-20 mt-5 ${theme === 'dark' ? 'bg-zinc-900 text-gray-200' : 'bg-white text-gray-700'}`}>
                     <div className="space-y-3">
                         <p>Design Tools:</p>
                         <p>Development:</p>

@@ -1,3 +1,5 @@
+import { useContext } from 'react';
+import { ThemeContext } from '../../providers/ThemeProvider';
 import Articles from '../articles/Articles';
 import Education from '../education/Education';
 import Profile from '../profile/Profile';
@@ -8,8 +10,11 @@ import './Home.css'
 
 function Home() {
 
+    const { theme } = useContext(ThemeContext);
+
+
     return (
-        <div className='max-w-4xl mx-auto'>
+        <div className={`max-w-4xl mx-auto bg-white ${theme === 'dark' ? 'bg-zinc-900 text-white' : 'bg-white text-zinc-900'}`}>
             <section id='profile'>
                 <Profile></Profile>
             </section>

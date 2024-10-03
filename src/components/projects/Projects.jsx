@@ -1,7 +1,9 @@
-import { useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
+import { ThemeContext } from "../../providers/ThemeProvider";
 
 
 const Projects = () => {
+    const { theme } = useContext(ThemeContext);
 
     const [projects, setProjects] = useState([]);
     const [ui, setUi] = useState([]);
@@ -47,9 +49,9 @@ const Projects = () => {
 
     return (
         <div className="Works">
-            <div className="pt-20 relative text-black font-semibold mx-auto">
+            <div className={`pt-20 px-5 lg:px-0 relative ${theme === 'dark' ? 'bg-zinc-900 text-white' : 'bg-white text-zinc-900'} font-semibold mx-auto`}>
                 <h3 className="text-2xl uppercase space-grotesk-600">Web Development Projects</h3>
-                <div className="mt-5 grid grid-cols-2 gap-5">
+                <div className="mt-5 grid lg:grid-cols-2 gap-5">
                     {
                         projects && projects.map((item) => {
                             return (
@@ -89,7 +91,7 @@ const Projects = () => {
                     }
                 </div>
             </div>
-            <div className="pt-20 relative text-black font-semibold mx-auto">
+            <div className={`pt-20 px-5 lg:px-0 relative ${theme === 'dark' ? 'bg-zinc-900 text-white' : 'bg-white text-zinc-900'} font-semibold mx-auto`}>
                 <h3 className="text-2xl uppercase space-grotesk-600">UI/UX Projects</h3>
                 <div className="mt-5 grid grid-cols-1 gap-5">
                     {
