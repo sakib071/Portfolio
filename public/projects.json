@@ -9,8 +9,8 @@
             "Axios",
             "Strapi"
         ],
-        "description": "An online educational consultancy platform offering guidance for studying abroad.",
-        "img": "https://i.ibb.co/Sfr85zR/React-Symbol.png",
+        "description": "EDUARR is a dedicated platform offering comprehensive guidance for students aspiring to study abroad. With accurate, up-to-date information and expert advice",
+        "img": "/eduarr.png",
         "live_link": "https://eduarr.com",
         "note": "Development"
     },
@@ -25,7 +25,7 @@
             "MongoDB"
         ],
         "description": "Key features include realtime availability, secure payment integration, and a user-friendly interface for easy turf management. Users can create player requests to find additional teammates.",
-        "img": "https://i.ibb.co/Sfr85zR/React-Symbol.png",
+        "img": "/turfhub.png",
         "live_link": "https://turfhub.vercel.app/",
         "note": "Development"
     },
@@ -39,14 +39,14 @@
             "Axios",
             "MongoDB"
         ],
-        "description": "An e-commerce platform for seamless shopping experience with real-time inventory management.",
-        "img": "https://i.ibb.co/Sfr85zR/React-Symbol.png",
-        "live_link": "https://shopease.com",
+        "description": "A professional business portfolio website created for a client, showcasing their engineering services and expertise. The website is live and hosted with its own domain and dedicated hosting.",
+        "img": "/labibaengineering.png",
+        "live_link": "https://www.labibaengineering.com/",
         "note": "Development"
     },
     {
         "id": 4,
-        "title": "FitLife",
+        "title": "Job Finder",
         "tech_used": [
             "React",
             "JavaScript",
@@ -54,9 +54,9 @@
             "Axios",
             "MongoDB"
         ],
-        "description": "A fitness tracking app that helps users monitor workouts and dietary habits.",
-        "img": "https://i.ibb.co/Sfr85zR/React-Symbol.png",
-        "live_link": "https://fitlife.com",
+        "description": "A website for finding and posting jobs.",
+        "img": "/jobfinder.png",
+        "live_link": "https://job-finder-app-83469.web.app/",
         "note": "Development"
     }
 ]

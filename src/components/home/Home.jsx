@@ -1,3 +1,5 @@
+import Articles from '../articles/Articles';
+import Education from '../education/Education';
 import Profile from '../profile/Profile';
 import Projects from '../projects/Projects';
 import Skills from '../skills/Skills';
@@ -18,7 +20,12 @@ function Home() {
             <section id='works'>
                 <Works></Works>
             </section>
-            <section id='articles'></section>
+            <section id='education'>
+                <Education></Education>
+            </section>
+            <section id='articles'>
+                <Articles></Articles>
+            </section>
         </div>
     )
 }

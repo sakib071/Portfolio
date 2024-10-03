@@ -3,7 +3,7 @@ const Works = () => {
 
     return (
         <div className="Profile">
-            <div className="py-20 relative text-black font-semibold mx-auto">
+            <div className="pt-20 relative text-black font-semibold mx-auto">
                 <h3 className="text-2xl uppercase space-grotesk-600">Work Experience</h3>
                 <div className="mt-5 grid grid-cols-1 gap-5">
                     <ol className="relative border-s border-gray-200 ml-3 mt-5 space-grotesk-400">
