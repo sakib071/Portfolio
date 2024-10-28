@@ -41,7 +41,7 @@ const Education = () => {
 
     return (
         <div className="education">
-            <div className={`pt-20 px-5 lg:px-0 relative ${theme === 'dark' ? 'bg-zinc-900 text-white' : 'bg-white text-zinc-900'} font-semibold mx-auto`}>
+            <div className={`pt-20 mb-20 px-5 lg:px-0 relative ${theme === 'dark' ? 'bg-zinc-900 text-white' : 'bg-white text-zinc-900'} font-semibold mx-auto`}>
                 <h3 className="text-2xl uppercase space-grotesk-600">Education</h3>
                 <div className="mt-5 grid grid-col2-1 lg:grid-cols-2 gap-5">
                     {

@@ -37,7 +37,7 @@ const Articles = () => {
 
     return (
         <div className="articles">
-            <div className={`pt-20 px-5 lg:px-0 relative ${theme === 'dark' ? 'bg-zinc-900 text-white' : 'bg-white text-zinc-900'} font-semibold mx-auto`}>
+            <div className={`py-20 px-5 lg:px-0 relative ${theme === 'dark' ? 'bg-zinc-900 text-white' : 'bg-white text-zinc-900'} font-semibold mx-auto`}>
                 <h3 className="text-2xl uppercase space-grotesk-600">Articles</h3>
                 <div className="mt-5 grid grid-cols-1 gap-5">
                     <ol className="space-grotesk-400 space-y-12">
@@ -50,7 +50,7 @@ const Articles = () => {
                                             <BsDot />
                                             <p className="space-grotesk-400">{item.reading_time}</p>
                                         </div>
-                                        <p className="space-grotesk-700 text-xl mb-2 hover:underline">{item.title}</p>
+                                        <p className="space-grotesk-700 text-xl mb-2 hover:underline dark:text-teal-500">{item.title}</p>
                                         <p className={`text-base ${theme === 'dark' ? 'bg-zinc-900 text-white' : 'bg-white text-zinc-900'}`}>{item.description}  <a href="#" className="text-base space-grotesk-400 underline">Continue reading</a></p>
                                     </li>
                                 )

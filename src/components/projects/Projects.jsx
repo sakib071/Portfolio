@@ -48,7 +48,7 @@ const Projects = () => {
     if (error) return <p>Error loading projects: {error.message}</p>;
 
     return (
-        <div className="Works">
+        <div className="projects">
             <div className={`pt-20 px-5 lg:px-0 relative ${theme === 'dark' ? 'bg-zinc-900 text-white' : 'bg-white text-zinc-900'} font-semibold mx-auto`}>
                 <h3 className="text-2xl uppercase space-grotesk-600">Web Development Projects</h3>
                 <div className="mt-5 grid lg:grid-cols-2 gap-5">

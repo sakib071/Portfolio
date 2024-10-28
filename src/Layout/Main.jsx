@@ -1,19 +1,21 @@
-import { Outlet, useLocation } from "react-router-dom";
-import Footer from "../components/footer/Footer";
-import Navbar from "../components/navbar/Navbar";
+import { Outlet } from "react-router-dom";
+// import Footer from "../components/footer/Footer";
+// import Navbar from "../components/navbar/Navbar";
 import { ThemeContext } from "../providers/ThemeProvider";
 import { useContext } from "react";
+import SideNav from "../components/navbar/SideNav";
 
 const Main = () => {
     const { theme } = useContext(ThemeContext);
-
-    const location = useLocation();
-    const noHeaderFooter = location.pathname.includes('login') || location.pathname.includes('signup');
     return (
-        <div className={`${theme === 'dark' ? 'bg-zinc-900 text-white' : 'bg-white text-zinc-900'}`}>
-            {noHeaderFooter || <Navbar></Navbar>}
-            <Outlet></Outlet>
-            {noHeaderFooter || <Footer></Footer>}
+        <div className={` ${theme === 'dark' ? 'bg-zinc-900 text-white' : 'bg-white text-zinc-900'}`}>
+            {/* <Navbar></Navbar>*/}
+            <div className="flex w-full">
+                <SideNav></SideNav>
+                <Outlet></Outlet>
+
+            </div>
+            {/* <Footer></Footer> */}
         </div>
     );
 };

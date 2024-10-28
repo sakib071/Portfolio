@@ -26,8 +26,6 @@ const Footer = () => {
                         </svg>
                     </label>
                 </div>
-
-
             </div>
         </footer>
     );
