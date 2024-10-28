@@ -10,7 +10,7 @@ const Main = () => {
     return (
         <div className={` ${theme === 'dark' ? 'bg-zinc-900 text-white' : 'bg-white text-zinc-900'}`}>
             {/* <Navbar></Navbar>*/}
-            <div className="flex w-full">
+            <div className="lg:flex lg:w-full">
                 <SideNav></SideNav>
                 <Outlet></Outlet>
 

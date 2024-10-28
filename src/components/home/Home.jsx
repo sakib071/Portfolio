@@ -14,7 +14,7 @@ function Home() {
 
 
     return (
-        <div className={`max-w-5xl relative left-1/3 bg-white ${theme === 'dark' ? 'bg-zinc-900 text-white' : 'bg-white text-zinc-900'}`}>
+        <div className={`lg:max-w-5xl lg:relative lg:left-1/3 bg-white ${theme === 'dark' ? 'bg-zinc-900 text-white' : 'bg-white text-zinc-900'}`}>
             <section id='profile'>
                 <Profile></Profile>
                 <Education></Education>

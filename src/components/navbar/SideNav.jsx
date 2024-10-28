@@ -16,7 +16,6 @@ const Navbar = () => {
         setIsOpen(!isOpen);
     };
 
-    // Set up IntersectionObserver to track active section
     useEffect(() => {
         const observer = new IntersectionObserver(
             (entries) => {
@@ -57,11 +56,11 @@ const Navbar = () => {
     ));
 
     return (
-        <div className="flex justify-start h-full space-grotesk-400">
-            <div className={`navbar h-screen ${theme === 'dark' ? 'bg-zinc-900 text-white' : 'bg-white text-zinc-900'} min-h-[12px] top-0 left-0 mx-auto`}>
-                <div className="navbar-start flex flex-col justify-start w-full">
+        <div className="lg:flex lg:justify-start space-grotesk-400">
+            <div className={`navbar lg:h-screen ${theme === 'dark' ? 'bg-zinc-900 text-white' : 'bg-white text-zinc-900'} min-h-[12px] top-0 left-0 mx-auto`}>
+                <div className="navbar-start flex flex-col items-start w-full">
                     {/* Mobile Menu Toggle Button */}
-                    <div className="lg:hidden mt-4">
+                    <div className="lg:hidden">
                         <button
                             type="button"
                             className={`relative size-10 m-1 flex justify-center items-center gap-2 rounded-lg font-medium text-zinc-400 shadow-sm border ${theme === 'dark' ? 'border-zinc-400' : 'border-zinc-400'}`}
@@ -87,7 +86,7 @@ const Navbar = () => {
 
                 {/* Mobile Menu */}
                 <div
-                    className={`lg:hidden absolute top-[100%] left-0 right-0 transition-all duration-500 ease-in-out overflow-hidden z-50 rounded-b-lg ${theme === 'dark' ? 'bg-zinc-900 text-white' : 'bg-white text-zinc-900'} ${isOpen ? 'max-h-[300px] opacity-100' : 'max-h-0 opacity-0'}`}
+                    className={`lg:hidden absolute top-14 left-0 right-0 transition-all duration-500 ease-in-out overflow-hidden z-50 ${theme === 'dark' ? 'bg-zinc-900 text-white' : 'bg-white text-zinc-900'} ${isOpen ? 'max-h-[300px] opacity-100' : 'max-h-0 opacity-0'}`}
                     style={{ transition: 'max-height 0.5s ease-in-out, opacity 0.5s ease-in-out' }}
                 >
                     <ul className="flex flex-col gap-5 mt-5 px-4 py-3">

@@ -11,7 +11,7 @@ const Profile = () => {
 
     return (
         <div className="Profile">
-            <div className={`pt-20 p-5 lg:p-0 lg:pt-20 relative ${theme === 'dark' ? 'bg-zinc-900 text-white' : 'bg-white text-zinc-900'} font-semibold mx-auto`}>
+            <div className={`px-5 lg:p-0 lg:pt-20 relative ${theme === 'dark' ? 'bg-zinc-900 text-white' : 'bg-white text-zinc-900'} font-semibold mx-auto`}>
                 {/* <div className="flex items-center gap-5">
                     <img className="h-24 w-24 rounded-full object-cover" src="/Sakib.jpg" alt="" />
                     <div>
@@ -19,7 +19,7 @@ const Profile = () => {
                         <p className={`text-lg ${theme === 'dark' ? 'text-teal-400' : ' text-zinc-500'} space-grotesk-400`}>Front-End Developer</p>
                     </div>
                 </div> */}
-                <p className="mt-5 text-base text-justify space-grotesk-400">As a front-end developer with a passion for building intuitive and dynamic web applications, I specialize in modern frameworks like <span className="text-teal-400 space-grotesk-500-italic">React</span> and <span className="text-teal-400 space-grotesk-500-italic">Tailwind CSS</span> to craft seamless, user-friendly experiences. With a deep understanding of design tools like <span className="text-teal-400 space-grotesk-500-italic">Figma</span> and <span className="text-teal-400 space-grotesk-500-italic">Adobe XD</span>, alongside development technologies such as <span className="text-teal-400 space-grotesk-500-italic">Vite, JavaScript, and Git,</span> I’m committed to optimizing workflows and delivering visually compelling, responsive solutions. <br /> <br /> My skills in problem-solving, attention to detail, and project planning help me deliver efficient, high-quality results in collaborative environments.</p>
+                <p className="text-base text-justify space-grotesk-400">As a front-end developer with a passion for building intuitive and dynamic web applications, I specialize in modern frameworks like <span className="text-teal-400 space-grotesk-500-italic">React</span> and <span className="text-teal-400 space-grotesk-500-italic">Tailwind CSS</span> to craft seamless, user-friendly experiences. With a deep understanding of design tools like <span className="text-teal-400 space-grotesk-500-italic">Figma</span> and <span className="text-teal-400 space-grotesk-500-italic">Adobe XD</span>, alongside development technologies such as <span className="text-teal-400 space-grotesk-500-italic">Vite, JavaScript, and Git,</span> I’m committed to optimizing workflows and delivering visually compelling, responsive solutions. <br /> <br /> My skills in problem-solving, attention to detail, and project planning help me deliver efficient, high-quality results in collaborative environments.</p>
                 <div className="mt-10 space-y-3">
                     <div className="flex gap-2 text-base space-grotesk-400 items-center">
                         <IoMdMail className="text-teal-400" />
