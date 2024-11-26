@@ -18,16 +18,14 @@ function Home() {
             <section id='profile'>
                 <Profile></Profile>
                 <Education></Education>
+                <Skills></Skills>
             </section>
             <section id='projects'>
                 <Projects></Projects>
-                <Skills></Skills>
             </section>
             <section id='work experience'>
                 <Works></Works>
             </section>
-            {/* <section id='education'>
-            </section> */}
             <section id='articles'>
                 <Articles></Articles>
             </section>

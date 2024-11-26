@@ -108,10 +108,10 @@ const Navbar = () => {
                     </div>
                     <div className="flex flex-col-reverse justify-start items-start gap-10">
                         <div className="flex gap-5">
-                            <a href="" className={`text-3xl ${theme === 'dark' ? 'text-zinc-200 hover:text-teal-400' : 'text-zinc-600 hover:text-zinc-800'} transition-colors`}><FaGithub /></a>
-                            <a href="" className={`text-3xl ${theme === 'dark' ? 'text-zinc-200 hover:text-teal-400' : 'text-zinc-600 hover:text-zinc-800'} transition-colors`}><FaLinkedin /></a>
-                            <a href="" className={`text-3xl ${theme === 'dark' ? 'text-zinc-200 hover:text-teal-400' : 'text-zinc-600 hover:text-zinc-800'} transition-colors`}><FaFacebookSquare /></a>
-                            <a href="" className={`text-3xl ${theme === 'dark' ? 'text-zinc-200 hover:text-teal-400' : 'text-zinc-600 hover:text-zinc-800'} transition-colors`}><FaInstagram /></a>
+                            <a href="https://github.com/sakib071" target="_blank" className={`text-3xl ${theme === 'dark' ? 'text-zinc-200 hover:text-teal-400' : 'text-zinc-600 hover:text-zinc-800'} transition-colors`} rel="noreferrer"><FaGithub /></a>
+                            <a href="https://www.linkedin.com/in/mohammad-sakib-chowdhury-540984163/" target="_blank" className={`text-3xl ${theme === 'dark' ? 'text-zinc-200 hover:text-teal-400' : 'text-zinc-600 hover:text-zinc-800'} transition-colors`} rel="noreferrer"><FaLinkedin /></a>
+                            <a href="https://www.facebook.com/sakibchy071?mibextid=ZbWKwL" target="_blank" className={`text-3xl ${theme === 'dark' ? 'text-zinc-200 hover:text-teal-400' : 'text-zinc-600 hover:text-zinc-800'} transition-colors`} rel="noreferrer"><FaFacebookSquare /></a>
+                            <a href="https://www.instagram.com/mohammad._.sakib?igsh=MTRtZ2J6a3R2cjNhag==" target="_blank" className={`text-3xl ${theme === 'dark' ? 'text-zinc-200 hover:text-teal-400' : 'text-zinc-600 hover:text-zinc-800'} transition-colors`} rel="noreferrer"><FaInstagram /></a>
                         </div>
 
 

@@ -10,7 +10,7 @@ const Skills = () => {
     const { theme } = useContext(ThemeContext);
 
     return (
-        <div name="skills" className="pt-20 hidden">
+        <div name="skills" className="">
             <div className={`relative ${theme === 'dark' ? 'bg-zinc-900 text-white' : 'bg-white text-zinc-900'} mx-auto`}>
                 <h3 className="text-2xl uppercase space-grotesk-600">Skills</h3>
                 <div className={`flex gap-20 mt-5 ${theme === 'dark' ? 'bg-zinc-900 text-gray-200' : 'bg-white text-gray-700'}`}>

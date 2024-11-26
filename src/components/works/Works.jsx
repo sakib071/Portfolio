@@ -30,7 +30,7 @@ const Works = () => {
                                 <PiSuitcaseSimple />
                             </span>
                             <div className={`items-center justify-between p-4 w-full border ${theme === 'dark' ? 'border-zinc-600' : 'border-zinc-200'} rounded-lg shadow-sm sm:flex`}>
-                                <time className="mb-1 text-base  space-grotesk-400 sm:order-last sm:mb-0">July, 2024 – August, 2024</time>
+                                <time className="mb-1 text-base  space-grotesk-400 sm:order-last sm:mb-0">May, 2024 – August, 2024</time>
                                 <div className="text-sm ">
                                     <p className=" text-base space-grotesk-400">Client: London-based business | Remote</p>
                                     <a href="#" className="font-semibold space-grotesk-700 text-lg text-teal-400 hover:underline">Database Manager</a>
