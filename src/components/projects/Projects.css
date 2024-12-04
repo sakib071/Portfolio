@@ -1,0 +1,22 @@
+.hero {
+  height: calc(100vh - 100px);
+  overflow: hidden;
+  /* background: white; */
+  position: relative;
+
+  .wrapper {
+    max-width: 1366px;
+    height: 100%;
+    margin: auto;
+  }
+  .imageContainer {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    img {
+      width: 50%;
+    }
+  }
+}

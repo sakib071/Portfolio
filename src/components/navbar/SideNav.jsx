@@ -56,7 +56,7 @@ const Navbar = () => {
     ));
 
     return (
-        <div className="lg:flex lg:justify-start space-grotesk-400">
+        <div className="lg:flex lg:justify-start md: space-grotesk-400">
             <div className={`navbar lg:h-screen ${theme === 'dark' ? 'bg-zinc-900 text-white' : 'bg-white text-zinc-900'} min-h-[12px] top-0 left-0 mx-auto`}>
                 <div className="navbar-start flex flex-col items-start w-full">
                     {/* Mobile Menu Toggle Button */}

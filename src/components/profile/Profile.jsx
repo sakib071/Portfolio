@@ -3,6 +3,8 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { FaSquareFacebook } from "react-icons/fa6";
 import { ThemeContext } from "../../providers/ThemeProvider";
 import { useContext } from "react";
+import Education from "../education/Education";
+import Skills from "../skills/Skills";
 
 
 const Profile = () => {
@@ -10,7 +12,7 @@ const Profile = () => {
     const { theme } = useContext(ThemeContext);
 
     return (
-        <div className="Profile">
+        <div className="profile h-[calc(100vh-100px)]">
             <div className={`px-5 lg:p-0 lg:pt-20 relative ${theme === 'dark' ? 'bg-zinc-900 text-white' : 'bg-white text-zinc-900'} font-semibold mx-auto`}>
                 {/* <div className="flex items-center gap-5">
                     <img className="h-24 w-24 rounded-full object-cover" src="/Sakib.jpg" alt="" />
@@ -40,6 +42,9 @@ const Profile = () => {
                     </div>
                 </div>
             </div>
+
+            <Education></Education>
+            <Skills></Skills>
         </div>
     );
 };

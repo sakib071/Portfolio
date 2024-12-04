@@ -1,5 +1,7 @@
 import { FaFigma, FaHtml5, FaReact, FaGitAlt, FaGithub, FaJsSquare, FaSlack, FaDiscord } from "react-icons/fa";
 import { SiAdobexd, SiAdobeillustrator, SiTailwindcss, SiVitest } from "react-icons/si";
+import { BiLogoTypescript } from "react-icons/bi";
+import { TbBrandNextjs } from "react-icons/tb";
 import { IoLogoCss3 } from "react-icons/io5";
 import { RxNotionLogo } from "react-icons/rx";
 import { ThemeContext } from "../../providers/ThemeProvider";
@@ -27,8 +29,10 @@ const Skills = () => {
                             <li className="flex gap-2 items-center"><SiAdobeillustrator />Adobe illustrator</li>
                         </ul>
                         <ul className="flex gap-2 justify-start">
+                            <li className="flex gap-2 items-center"><TbBrandNextjs />NextJS,</li>
                             <li className="flex gap-2 items-center"><FaReact />React,</li>
                             <li className="flex gap-2 items-center"><SiVitest />Vite,</li>
+                            <li className="flex gap-2 items-center"><BiLogoTypescript />TypeScript,</li>
                             <li className="flex gap-2 items-center"><FaJsSquare />JavaScript,</li>
                             <li className="flex gap-2 items-center"><FaHtml5 />HTML 5,</li>
                             <li className="flex gap-2 items-center"><IoLogoCss3 />CSS,</li>

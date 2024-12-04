@@ -1,6 +1,6 @@
 import { useContext, useEffect, useState } from "react";
 import { ThemeContext } from "../../providers/ThemeProvider";
-
+// import './Projects.css'
 
 const Projects = () => {
     const { theme } = useContext(ThemeContext);
@@ -19,16 +19,13 @@ const Projects = () => {
                     fetch("/ui.json"),
                 ]);
 
-                // Check if both responses are OK
                 if (!projectsResponse.ok || !uiResponse.ok) {
                     throw new Error("Failed to fetch data");
                 }
 
-                // Parse both responses as JSON
                 const projectsData = await projectsResponse.json();
                 const uiData = await uiResponse.json();
 
-                // Set the data to the appropriate state
                 setProjects(projectsData);
                 setUi(uiData); // Assuming you have a state for UI data
             } catch (err) {
@@ -48,10 +45,10 @@ const Projects = () => {
     if (error) return <p>Error loading projects: {error.message}</p>;
 
     return (
-        <div id="projects" className="projects pt-20">
+        <div id="projects" className="projects pt-20 ">
             <div className={`pt-20 px-5 lg:px-0 relative ${theme === 'dark' ? 'bg-zinc-900 text-white' : 'bg-white text-zinc-900'} font-semibold mx-auto`}>
                 <h3 className="text-2xl uppercase space-grotesk-600">Web Development Projects</h3>
-                <div className="mt-5 grid lg:grid-cols-2 gap-5">
+                <div className="mt-5 grid lg:grid-cols-1 grid-cols-2 gap-5">
                     {
                         projects && projects.map((item) => {
                             return (
